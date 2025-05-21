@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Core.Entities
+namespace Apliccation.Features.Personas.Queries
 {
-    public abstract class BaseEntity
+    internal class GetAllPersonasQuery
     {
-        public int ID { get; set; }
     }
 }
