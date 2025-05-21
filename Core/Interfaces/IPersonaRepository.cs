@@ -12,7 +12,7 @@ namespace Core.Interfaces
         Task<IEnumerable<Persona>> GetAllPersonasAsync();
         Task<Persona> GetPersonaByIdAsync(int id);
         Task<Persona> AddPersonaAsync(Persona persona);
-        Task<Persona> UpdatePersonaAsync(Persona persona);
+        Task UpdatePersonaAsync(Persona persona);
         Task DeletePersonaAsync(int id);
     }
 }
